@@ -2,9 +2,7 @@ rm(list = ls())
 setwd("")# set your working directory properly
 library(pscl)
 library(doSNOW)
-library(doParallel)
 library(stringr)
-library(foreach)
 library(qvalue)
 
 st <- 1

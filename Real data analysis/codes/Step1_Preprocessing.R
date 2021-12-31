@@ -1,5 +1,9 @@
 rm(list = ls())
 setwd("")
+library(Seurat)
+library(sctransform)
+library(stringr)
+library(SPOTlight)
 # set your working directory properly
 
 #=== Preprocess =====
